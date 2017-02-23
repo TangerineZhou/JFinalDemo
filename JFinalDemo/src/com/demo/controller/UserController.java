@@ -26,12 +26,6 @@ public class UserController extends Controller{
 			}
 		}
 		
-		//用户查询
-		public void search() {
-			List<User> userList = User.dao.find("select * from user");
-			render("search.html");
-		}
-		
 		//用户注册
 		public void register() {
 			render("register.jsp");
@@ -47,7 +41,15 @@ public class UserController extends Controller{
 		}
 		
 		//用户名单
+		public void list() {
+			List<User> userList = User.dao.find("select * from user");
+			setAttr("userList", userList);
+//			render("from.html");
+			render("list.jsp");
+		}
+		
+		//用户添加修改
 		public void from() {
-			render("from.html	");
+			
 		}
 }

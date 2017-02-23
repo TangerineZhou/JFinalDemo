@@ -10,6 +10,7 @@ import com.jfinal.aop.Before;
 import com.jfinal.core.ActionKey;
 import com.jfinal.core.Controller;
 
+
 public class HelloController extends Controller{
 	//Ä¬ÈÏÖ÷Ò³
 	public void index() {
