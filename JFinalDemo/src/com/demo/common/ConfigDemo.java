@@ -1,5 +1,7 @@
 package com.demo.common;
 
+import com.demo.controller.HelloController;
+import com.demo.controller.UserController;
 import com.demo.interceptor.LoginInterceptor;
 import com.demo.model.User;
 import com.jfinal.config.Constants;
@@ -30,6 +32,7 @@ public class ConfigDemo extends JFinalConfig {
 	@Override
 	public void configRoute(Routes me) {
 		me.add("/", HelloController.class);
+		me.add("/user",UserController.class);
 	}
 
 	//≈‰÷√“˝«Ê

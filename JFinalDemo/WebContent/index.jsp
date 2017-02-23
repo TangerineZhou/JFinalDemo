@@ -10,8 +10,8 @@
 	<center>
 		<h1>Hello!This is my JSP!</h1>
 	</center>
-	<a href="login" name="haha">点击登录</a>
-	<a href="register" name="haha">点击注册</a>
-	<a href="search" name="haha">点击查询</a>
+	<a href="/user/login" name="haha">点击登录</a>
+	<a href="/user/register" name="haha">点击注册</a>
+	<a href="/user/from" name="haha">用户名单</a>
 </body>
 </html>
