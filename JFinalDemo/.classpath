@@ -11,7 +11,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-server-8.1.8.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jfinal-3.0-bin-with-src.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/c3p0-0.9.5.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cos-26Dec2008.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/fastjson-1.2.6.jar"/>
@@ -29,6 +28,17 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/sqlite-jdbc-3.7.2.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/JFinal-event-1.4.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jbase-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jbase-jim-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/pdfbox-app-1.8.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-examples-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-excelant-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-scratchpad-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jfinal-3.0-bin-with-src.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jfinal-ext-3.1.4.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

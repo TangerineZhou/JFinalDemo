@@ -6,6 +6,8 @@ import com.demo.model.User;
 import com.demo.validator.LoginValidator;
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
+import com.jfinal.ext.render.excel.PoiRender;
+import com.jfinal.render.RenderException;
 
 public class UserController extends Controller{
 		//登录页面
@@ -51,5 +53,10 @@ public class UserController extends Controller{
 		//用户添加修改
 		public void from() {
 			
+		}
+		
+		//导出excel
+		public void excel() {
+			String sql = "select * from user";
 		}
 }

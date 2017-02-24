@@ -10,6 +10,7 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.core.JFinal;
+import com.jfinal.ext.route.AutoBindRoutes;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
@@ -39,8 +40,10 @@ public class ConfigDemo extends JFinalConfig {
 	//≈‰÷√“˝«Ê
 	@Override
 	public void configEngine(Engine me) {
+		// TODO Auto-generated method stub
 		
 	}
+
 
 	//≈‰÷√≤Âº˛
 	@Override
@@ -88,4 +91,5 @@ public class ConfigDemo extends JFinalConfig {
 	public static void main(String[] args) {
 		JFinal.start("WebContent", 80, "/", 5);
 	}
+
 }
