@@ -1,9 +1,8 @@
-package com.demo.common;
+package com.demo;
 
-import com.demo.controller.HelloController;
-import com.demo.controller.UserController;
-import com.demo.interceptor.LoginInterceptor;
 import com.demo.model.User;
+import com.demo.routes.MsgsiteRoutes;
+import com.demo.routes.WebsiteRoutes;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;
@@ -11,13 +10,9 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.core.JFinal;
-import com.jfinal.kit.Prop;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
-import com.jfinal.plugin.activerecord.cache.EhCache;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
-import com.jfinal.plugin.cron4j.Cron4jPlugin;
-import com.jfinal.plugin.ehcache.EhCachePlugin;
 import com.jfinal.render.ViewType;
 import com.jfinal.template.Engine;
 
@@ -35,8 +30,10 @@ public class ConfigDemo extends JFinalConfig {
 	// 配置路由
 	@Override
 	public void configRoute(Routes me) {
-		me.add("/", HelloController.class);
-		me.add("/user",UserController.class);
+		//前端路由
+		me.add(new WebsiteRoutes());
+		//后端路由
+		me.add(new MsgsiteRoutes());
 	}
 
 	//配置引擎

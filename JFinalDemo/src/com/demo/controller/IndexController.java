@@ -1,30 +1,31 @@
 package com.demo.controller;
 
-import java.util.List;
-
-import javax.management.modelmbean.ModelMBean;
 
 import com.demo.model.User;
-import com.demo.validator.LoginValidator;
-import com.jfinal.aop.Before;
 import com.jfinal.core.ActionKey;
 import com.jfinal.core.Controller;
 
 
-public class HelloController extends Controller{
+public class IndexController extends Controller{
 	//Ä¬ÈÏÖ÷Ò³
 	public void index() {
 //		render("index.jsp");
-		render("index.html");
+		renderFreeMarker("index.html");
 	}
 	
 	@ActionKey("/haha")
 	public void hello() {
-		render("index.html");
+		setAttr("name", "xiaoming");
+		setAttr("age", 18);
+		setAttr("email", "163");
+		renderJson();
 	}
 	
 	public void hehe() {
-		renderText("This is my text!");
+		User u = new User();
+		u.set("name", "xiaoming");
+		u.set("age", 18);
+		renderJson(u);
 	}
 	
 //	public void save() {
