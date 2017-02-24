@@ -677,3 +677,18 @@ java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Stri
 
 2017-02-23 17:15:32
 [WARN]-[Thread: qtp493772491-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /user/user/login
+
+2017-02-24 15:28:47
+[WARN]-[Thread: qtp670189832-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2017-02-24 15:28:50
+[WARN]-[Thread: qtp670189832-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2017-02-24 15:28:52
+[WARN]-[Thread: qtp670189832-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2017-02-24 15:29:21
+[WARN]-[Thread: qtp670189832-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2017-02-24 15:29:29
+[WARN]-[Thread: qtp670189832-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/

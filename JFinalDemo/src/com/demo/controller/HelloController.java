@@ -14,7 +14,8 @@ import com.jfinal.core.Controller;
 public class HelloController extends Controller{
 	//Ä¬ÈÏÖ÷Ò³
 	public void index() {
-		render("index.jsp");
+//		render("index.jsp");
+		render("index.html");
 	}
 	
 	@ActionKey("/haha")

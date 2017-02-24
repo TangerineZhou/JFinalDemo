@@ -18,11 +18,31 @@
 </head>
 <body>
 	<center>
-		<h1>Hello!This is my JSP!</h1>
+		<h1><strong>WelCome to JFinal World <small>——Good luck</small></strong></h1>
 	</center>
-<a class="btn btn-default" href="/user/login" role="button" >登录</a>
-<a class="btn btn-default" href="/user/register" role="button" >注册</a>
+<!-- <div id="main" class="container" style="font-size: 16px">
 <a class="btn btn-default" href="/user/list" role="button" >名单</a>
+<div class="list-group">
+	<center>
+	<a class="list-group-item" href="user/login">登陆</a>
+	<a class="list-group-item" href="/user/register">注册</a>
+	<a class="list-group-item" href="/user/list">名单</a>
+	</center>
+</div>
+</div> -->
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+	<center>
+	<div class="btn-group" role="group">
+	<a class="list-group-item" href="user/login">登陆</a>
+	</div>
+	<div class="btn-group" role="group">
+	<a class="list-group-item" href="/user/register">注册</a>
+	</div>
+	<div class="btn-group" role="group">
+	<a class="list-group-item" href="/user/list">名单</a>
+	</div>
+		</center>
+</div>
 
 </body>
 </html>
